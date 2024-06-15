@@ -1,0 +1,107 @@
+content:
+    - question: "Wie ist deine aktuelle Stimmung, wenn du über die Politik nachdenkst?"
+    - answers: []
+answers:
+    "Ich bin wütend.":
+        content:
+            - question: "Warum bist du wütend?"
+            - answers: []
+        anchor: "Anker: Ich bin wütend."
+        answers:
+            "Die Politik kümmert sich nicht um meine Bedürfnisse.":
+                content:
+                    - text: "Es ist verständlich, dass du dich enttäuscht fühlst, wenn deine Bedürfnisse von der Politik nicht berücksichtigt werden. Das kann wirklich frustrierend sein."
+                    - question: "Wie sieht dein Plan aus?"
+                    - answers: []
+                answers:
+                    "Mein Kreuz bei der nächsten Wahl wird es schon richten!":
+                        content:
+                            - text: "Dampf ablassen ist ein ganz normaler Reflex. Wenn man den Wut loswerden möchte."
+                            - question: "Sind die Probleme deiner Meinung nach danach gelöst?"
+                            - answers: []
+                        answers:
+                            "Ja. Meine Wahl hat auf alles eine Lösung.":
+                                content:
+                                    - text: "Es ist verständlich, dass man sich von einer Partei angezogen fühlt, die auf den ersten Blick auf alles eine Antwort hat und lautstark Probleme anspricht. Doch es ist wichtig, genau hinzusehen und zu prüfen, ob diese Partei auch konkrete und realistische Lösungen anbietet. Einfach nur zu wettern und Missstände zu benennen, reicht nicht aus, um wirkliche Veränderungen herbeizuführen. Achte darauf, ob die vorgeschlagenen Maßnahmen auch umsetzbar und durchdacht sind.\nEine Partei, die nur Probleme anprangert, aber keine konstruktiven Lösungen präsentiert, kann langfristig mehr Schaden anrichten als Nutzen bringen. Deine Stimme sollte eine Partei unterstützen, die nicht nur redet, sondern auch handelt und praktische Ansätze zur Verbesserung unserer Gesellschaft hat."
+                            "Ich bin unschlüssig. Aber ich habe keine andere Wahl.":
+                                content:
+                                    - text: "Ich verstehe, dass du frustriert bist und es verlockend sein kann, aus Protest eine Partei zu wählen, die deine Enttäuschung widerspiegelt. Doch es ist wichtig zu bedenken, dass deine Wahl weitreichende Konsequenzen haben kann. Eine aus Frust gewählte Partei könnte langfristig Politik machen, die nicht in deinem besten Interesse liegt und möglicherweise Probleme verschärft statt löst.\nÜberlege dir gut, welche Partei wirklich für nachhaltige und konstruktive Veränderungen steht und deine Werte und Anliegen ernst nimmt. Informiere dich über die konkreten Lösungen und Pläne der Parteien, bevor du deine Stimme abgibst. Deine Stimme ist wertvoll und sollte dazu beitragen, positive Veränderungen zu bewirken, nicht aus kurzfristigem Ärger heraus gewählt werden."
+                            "Nein. Natürlich nicht. Aber so dieser Denkzettel sitzt tief!":
+                                content:
+                                    - text: "Ich verstehe, dass du der aktuellen Regierung einen Denkzettel verpassen möchtest. Es ist jedoch wichtig, auch die langfristigen Auswirkungen deiner Wahl zu bedenken. Eine Protestwahl kann kurzfristig Befriedigung bringen, aber wenn sie einer Partei zugute kommt, die keine konstruktiven Lösungen bietet, kann das langfristig erheblichen Schaden anrichten.\nDeine Stimme sollte nicht nur eine Botschaft der Unzufriedenheit senden, sondern auch dazu beitragen, positive und nachhaltige Veränderungen zu ermöglichen.\nÜberlege dir gut, welche Partei wirklich in der Lage ist, sinnvolle Politik zu machen und die Probleme, die dir wichtig sind, konstruktiv anzugehen. Deine Wahl hat Konsequenzen, und es ist entscheidend, dass du diese ernsthaft in Betracht ziehst, bevor du deine Entscheidung triffst."
+                    "Ich bin unschlüssig was ich wählen soll.":
+                        content:
+                            - text: "Parteien verfolgen verschiedene politische Ziele und Strategien. Die Wahl der richtigen Partei sollte darauf basieren, welche Partei die meisten und realistischsten Lösungen für die persönlichen Anliegen bietet. Es ist essenziell, sich zu informieren und kritisch zu hinterfragen, ob die vorgeschlagenen Maßnahmen auch wirklich umsetzbar sind. Eine Partei, die ernsthafte und machbare Lösungen vorschlägt, ist entscheidend für nachhaltige und positive Veränderungen. Daher sollte man seine Wahl gut überdenken und sich für die Partei entscheiden, die am ehesten den eigenen Erwartungen und Bedürfnissen entspricht."
+                    "Ist mir egal ist eh alles verloren!":
+                        content:
+                            - text: "Es kann frustrierend sein, wenn die politische Landschaft chaotisch erscheint und man das Gefühl hat, dass die eigene Stimme nichts bewirken kann. Doch genau in diesen Momenten ist es wichtiger denn je, zur Wahl zu gehen. Deine Stimme zählt, und sie kann einen Unterschied machen.\nÜberlege dir gut, welche Partei die meisten realistischen und umsetzbaren Lösungen für deine Anliegen bietet. Informiere dich, hinterfrage kritisch und wähle die Partei, die deinen Vorstellungen und Bedürfnissen am besten entspricht. Aufgeben ist keine Option, denn nur wer wählt, kann auch Veränderungen bewirken. Deine Wahl ist wichtig – sie bestimmt die Zukunft, in der du leben wirst."
+                    "Ich möchte mich gern politisch einbringen":
+                        content:
+                            - text: "..."
+            "Die Einwanderungspolitik. Hier läuft etwas schief.":
+                content:
+                    - question: "Was genau bewegt dich am Thema Einwanderungspolitik?"
+                    - answers: []
+                answers:
+                    "Ich habe Angst um meine Arbeit.":
+                        content:
+                            - text: "..."
+                    "Ich möchte keine fremden Kulturen.":
+                        content:
+                            - text: "..."
+                    "Ich mache mir Sorgen um die Sicherheit.":
+                        content:
+                            - text: "..."
+                    "Es gibt zu viele Einwanderer.":
+                        content:
+                            - text: "..."
+                    "Die Integration funktioniert nicht.":
+                        content:
+                            - text: "..."
+                    "Die Belastung für das Sozialsystem ist zu hoch.":
+                        content:
+                            - text: "..."
+            "Ich habe ein Problem mit Umweltthemen und deren Umsetzungen.":
+                content:
+                    - question: "Was genau bewegt dich an den Umweltthemen oder deren Umsetzungen?"
+                    - answers: []
+                answers:
+                    "Übermäßige Bürokratie. Da blickt doch keiner mehr durch.":
+                        content:
+                            - text: "Ich verstehe, dass dich die übermäßige Bürokratie im Bereich der Umweltpolitik frustriert. Es kann wirklich entmutigend sein, sich durch komplizierte Regelungen und Vorschriften zu kämpfen. Eine klare und effiziente Bürokratie ist entscheidend, um Umweltschutzmaßnahmen erfolgreich umzusetzen und für alle Beteiligten verständlich zu machen.\nVielleicht wäre es hilfreich, sich gezielt über bestimmte Maßnahmen und deren Hintergründe zu informieren, um ein besseres Verständnis zu entwickeln. Gleichzeitig ist es wichtig, dass die Politik daran arbeitet, den bürokratischen Aufwand zu reduzieren und die Prozesse zu vereinfachen. So kann sichergestellt werden, dass Umweltinitiativen nicht nur effektiv, sondern auch zugänglich und nachvollziehbar sind. Deine Kritik ist berechtigt und kann dazu beitragen, dass Änderungen angestoßen werden, die den Prozess transparenter und weniger belastend machen."
+                    "Ästhetische Bedenken. Ich mag keine Windräder und Solarzellen.":
+                        content:
+                            - text: "Ich verstehe, dass dich die ästhetischen Auswirkungen von Windrädern und Solarzellen stören. Viele Menschen teilen diese Bedenken, da diese Technologien das Landschaftsbild erheblich verändern können. Es ist wichtig, dass bei der Planung und Umsetzung solcher Projekte auch die optischen und landschaftlichen Aspekte berücksichtigt werden.\nEine mögliche Lösung könnte darin bestehen, die Standorte sorgfältig auszuwählen, um die visuellen Eingriffe so gering wie möglich zu halten. Zusätzlich gibt es innovative Ansätze, um Windräder und Solaranlagen besser in die Umgebung zu integrieren und so die ästhetischen Auswirkungen zu minimieren. Deine Kritik ist wertvoll und kann dazu beitragen, dass zukünftige Projekte nicht nur umweltfreundlich, sondern auch ästhetisch ansprechender gestaltet werden. Es liegt an der Politik, diese Balance zu finden und Lösungen zu entwickeln, die sowohl ökologisch als auch visuell tragbar sind."
+                    "Es gibt kein Klimawandel.":
+                        content:
+                            - text: "Ich verstehe, dass du Zweifel am Klimawandel hast. Die Diskussion darüber ist wichtig und es ist gut, Fragen zu stellen. Die überwiegende Mehrheit der Wissenschaftler ist jedoch der Meinung, dass der Klimawandel real ist und hauptsächlich durch menschliche Aktivitäten verursacht wird. Es gibt zahlreiche wissenschaftliche Studien und Berichte, die dies belegen.\nHier sind einige Links zu vertrauenswürdigen Quellen, die fundierte Informationen und Forschungsergebnisse zum Klimawandel bereitstellen:"
+                            - links:
+                                  "Intergovernmental Panel on Climate Change (IPCC)": "https://www.ipcc.ch/"
+                                  "NASA: Global Climate Change": "https://science.nasa.gov/climate-change/"
+                                  "Deutscher Wetterdienst: Klimawandel": "https://www.dwd.de/DE/klimaumwelt/klimawandel/klimawandel_node.html"
+                            - text: "Diese Ressourcen bieten detaillierte Informationen und Daten, die dir helfen können, ein umfassenderes Bild des Klimawandels zu bekommen. Ein offener Dialog und das Verständnis wissenschaftlicher Erkenntnisse sind entscheidend, um die richtigen Maßnahmen für die Zukunft zu treffen."
+                    "Bevormundung durch den Staat. Ich will meinen Verbrenner fahren wie ich möchte.":
+                        content:
+                            - text: "Ich verstehe, dass du dich durch staatliche Vorschriften und Einschränkungen in Bezug auf Verbrennerfahrzeuge bevormundet fühlst. Viele Menschen empfinden ähnliche Frustration, wenn es um Eingriffe in ihre persönlichen Freiheiten geht.\nDie Politik zielt mit diesen Maßnahmen darauf ab, Umwelt- und Klimaziele zu erreichen, was langfristig allen zugutekommen soll. Es ist jedoch wichtig, dass solche Maßnahmen auch nachvollziehbar und gerecht umgesetzt werden, ohne dass Bürger sich übermäßig eingeschränkt fühlen.\nVielleicht könnte ein Mittelweg gefunden werden, der sowohl die Umwelt schützt als auch individuelle Freiheiten respektiert. Deine Kritik ist wichtig und kann dazu beitragen, dass die Politik bei der Einführung neuer Regelungen die Bedürfnisse und Bedenken der Bürger stärker berücksichtigt. Ein offener Dialog über die Ziele und Notwendigkeiten dieser Maßnahmen könnte helfen, mehr Akzeptanz und Verständnis zu schaffen."
+            "Einfach alles. Nichts wird richtig gemacht.":
+                content:
+                    - text: "Etwas zum Frust und Unmut."
+    "Ich bin unsicher oder habe Angst.":
+        content:
+            - question: "Warum bist du unsicher oder hast Angst?"
+            - answers: []
+        answers: "Anker: Ich bin wütend."
+    "Könnte man besser machen, wird schon.":
+        content:
+            - question: "Hast du schonmal nachgedacht in der Politik mitzuwirken?"
+            - answers: []
+        answers:
+            "Ja, aber weiß nicht wie.":
+                content:
+                    - text: "Etwas Text wie man sich politisch aktiv einsetzen kann."
+            "Nein, ich vertraue auf die aktuelle Politik. Veränderungen brauchen ihre Zeit.":
+                content:
+                    - text: "Etwas Mut für die Zukunft."
+    "Bin ganz zufrieden.":
+        content:
+            - text: "..."
