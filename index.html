@@ -8,8 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/league.css">
-		<link rel="stylesheet" href="dist/overwrite.css">
+		<link rel="stylesheet" href="dist/theme/custom.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,13 +16,36 @@
 	<body>
 		<div class="home"><a href="#" onclick="location.reload(); return false;">Restart</a></div>
 
-		<div class="reveal"></div>
+		<div class="reveal"><div class="slides"></div></div>
 
 		<script src="dist/js-yaml.min.js"></script>
 		<script src="dist/reveal.js"></script>
+		<script src="plugin/yaml-section-builder/yaml-section-builder.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
-		<script src="dist/init.js"></script>
+
+		<script>
+
+			/* Initialize the Reveal framework. */
+			Reveal.initialize({
+				controls: false,
+				controlsTutorial: false,
+				disableLayout: true,
+				hash: false,
+				help: false,
+				jumpToSlide: false,
+				keyboard: false,
+				overview: false,
+				progress: false,
+				slideNumber: false,
+				transition: 'slide',
+				transitionSpeed: 'default',
+				touch: false,
+				hideCursorTime: 1000,
+				plugins: [ YamlSectionBuilder, RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+		</script>
 	</body>
 </html>

@@ -1,32 +1,9 @@
-const yamlPath = '/dist/config.yml';
+/* YAML Path to configuration file. */
+const yamlPath = '/plugin/yaml-section-builder/config.yml';
 
 let anchors = {};
 
 let anchorAnswers = {};
-
-/**
- * Initializes the Reveal framework.
- */
-const initReveal = () =>
-{
-    /* Initialize the Reveal framework. */
-    Reveal.initialize({
-        controls: false,
-        controlsTutorial: false,
-        disableLayout: true,
-        hash: false,
-        help: false,
-        jumpToSlide: false,
-        keyboard: false,
-        overview: false,
-        progress: false,
-        slideNumber: false,
-        transition: 'slide',
-        transitionSpeed: 'default',
-        touch: false,
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-    });
-}
 
 /**
  * Fetches the YAML file.
@@ -112,6 +89,8 @@ const createQuestion = (section, question) =>
     }
 
     const h2 = document.createElement('h2');
+
+    h2.classList.add('question');
 
     h2.textContent = question;
 
@@ -293,7 +272,7 @@ const createSlides = (data, slideContainer, sectionId) =>
  * @param data
  * @return {HTMLDivElement}
  */
-const getReveal = (data) =>
+const createRevealSlides = (data) =>
 {
     const slideContainer = document.createElement('div');
 
@@ -306,29 +285,41 @@ const getReveal = (data) =>
 }
 
 /**
- * Fetches the YAML file and initializes the Reveal framework.
+ * Plugin definition.
  *
- * @return {Promise<void>}
+ * @type {{init: ((function(*): Promise<void>)|*), id: string}}
  */
-const init = async () =>
+const Plugin =
 {
-    try {
+    id: 'yaml-section-builder',
+    init: async (deck) =>
+    {
         /* Load YAML data. */
         const data = await fetchYaml(yamlPath);
 
         /* Collect all anchors. */
         collectAnchors(data, 'section');
 
-        /* Add reveal content. */
-        document.querySelector('div.reveal').appendChild(getReveal(data));
+        /* Create reveal slides. */
+        let revealSlides = createRevealSlides(data);
 
-        /* Initialize the Reveal framework. */
-        initReveal();
+        /* Target slides element. */
+        let existingSlidesElement = document.querySelector('div.reveal div.slides');
 
-    } catch (error) {
-        console.error('Error loading YAML:', error);
+        /* Add all reveal slides to target slides element. */
+        if (existingSlidesElement && revealSlides) {
+            while (revealSlides.firstChild) {
+                existingSlidesElement.appendChild(revealSlides.firstChild);
+            }
+        }
     }
-}
+};
 
-/* Starts the init function when dom is started. */
-document.addEventListener('DOMContentLoaded', init);
+/**
+ * Register Plugin to YamlSectionBuilder.
+ *
+ * @type {{init: ((function(*): Promise<void>)|*), id: string}}
+ */
+const YamlSectionBuilder = (() => {
+    return Plugin;
+})();

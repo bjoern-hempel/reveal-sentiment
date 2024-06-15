@@ -36,7 +36,7 @@ Reveal Sentiment is a political sentiment survey tool based on the Reveal.js fra
 
 ## Customization
 
-The slides are automatically generated from a YAML file located at [dist/config.yml](/dist/config.yml).
+The slides are automatically generated from a YAML file located at [plugin/yaml-section-builder/config.yml](/plugin/yaml-section-builder/config.yml).
 You can modify this file to change the content of the survey.
 
 ## Deployment
