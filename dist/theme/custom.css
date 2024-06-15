@@ -397,7 +397,7 @@ div.reveal div.slides section * {
   word-wrap: break-word;
 }
 div.reveal div.slides section h1 {
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 div.reveal div.slides section h2 {
   margin-top: 0.75em;
@@ -447,4 +447,7 @@ div.reveal div.slides section div.note p:first-child {
 }
 div.reveal div.slides section div.note p:last-child {
   margin-bottom: 0;
+}
+div.reveal div.slides section iframe {
+  margin-top: 0.75em;
 }

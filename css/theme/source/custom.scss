@@ -96,7 +96,7 @@ div.reveal {
             }
 
             h1 {
-                margin-top: 0.5em;
+                margin-top: 0.75em;
             }
 
             h2 {
@@ -170,6 +170,10 @@ div.reveal {
                         margin-bottom: 0;
                     }
                 }
+            }
+
+            iframe {
+                margin-top: 0.75em;
             }
         }
     }
