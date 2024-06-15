@@ -384,28 +384,58 @@ div.reveal div.slides section {
   left: 0;
   right: 0;
   overflow-y: auto;
-  padding: calc(5em + (100vh - 100vw) / 5) 1.5em 0;
+  padding: calc(3em + (100vh - 100vw) / 10) 1.5em 0;
   box-sizing: border-box;
 }
 div.reveal div.slides section * {
   word-wrap: break-word;
 }
-div.reveal div.slides section h2.question {
+div.reveal div.slides section h1 {
+  margin-top: 0.5em;
+}
+div.reveal div.slides section h2 {
   margin-top: 0.75em;
 }
 div.reveal div.slides section a {
   font-weight: 200;
 }
-div.reveal div.slides section p {
-  line-height: 1.6;
-}
-div.reveal div.slides section ul.answers {
+div.reveal div.slides section ul {
   padding-left: 0;
+  padding-right: 0;
   width: 100%;
   margin-top: 0.75em;
+  margin-left: 0;
+  margin-right: 0;
 }
 div.reveal div.slides section ul.answers li {
   list-style-type: none;
   margin-bottom: 20px;
   text-align: center;
+}
+div.reveal div.slides section ul.links li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+div.reveal div.slides section ul.links li::marker {
+  color: #90c5eb;
+}
+div.reveal div.slides section p {
+  font-weight: 200;
+}
+div.reveal div.slides section div.text p {
+  line-height: 1.6;
+}
+div.reveal div.slides section div.note {
+  border: 1px solid #eee8d5;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+div.reveal div.slides section div.note p {
+  font-size: 0.75em;
+}
+div.reveal div.slides section div.note p:first-child {
+  margin-top: 0;
+}
+div.reveal div.slides section div.note p:last-child {
+  margin-bottom: 0;
 }

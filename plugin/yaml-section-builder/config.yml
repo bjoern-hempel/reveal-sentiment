@@ -105,3 +105,18 @@ answers:
     "Ich bin zufrieden.":
         content:
             - text: "..."
+    "Übersicht aller Content-Elemente":
+        content:
+            - note: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            - title: "Titel"
+            - text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            - links:
+                  "Wikipedia": https://www.wikipedia.org
+                  "Google": "https://www.google.com"
+            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+        answers:
+            "Nächste Seite":
+                content:
+                    - title: "Video"
+                    - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+

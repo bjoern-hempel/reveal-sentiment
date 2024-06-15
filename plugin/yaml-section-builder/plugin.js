@@ -28,6 +28,26 @@ const fetchYaml = async (url) =>
  * Create text to the given section.
  *
  * @param section
+ * @param title
+ */
+const createTitle = (section, title) =>
+{
+    if (!title) {
+        return;
+    }
+
+    const h2 = document.createElement('h2');
+
+    h2.classList.add('title');
+    h2.textContent = title;
+
+    section.appendChild(h2);
+}
+
+/**
+ * Create text to the given section.
+ *
+ * @param section
  * @param text
  */
 const createText = (section, text) =>
@@ -36,13 +56,46 @@ const createText = (section, text) =>
         return;
     }
 
+    const div = document.createElement('div');
+
+    div.classList.add('text');
+
     let texts = text.split('\n');
 
     for (const text of texts) {
         const p = document.createElement('p');
         p.textContent = text;
-        section.appendChild(p);
+        div.appendChild(p);
     }
+
+    section.appendChild(div);
+}
+
+/**
+ * Create text to the given section.
+ *
+ * @param section
+ * @param note
+ */
+const createNote = (section, note) =>
+{
+    if (!note) {
+        return;
+    }
+
+    const div = document.createElement('div');
+
+    div.classList.add('note');
+
+    let notes = note.split('\n');
+
+    for (const note of notes) {
+        const p = document.createElement('p');
+        p.textContent = note;
+        div.appendChild(p);
+    }
+
+    section.appendChild(div);
 }
 
 /**
@@ -51,13 +104,15 @@ const createText = (section, text) =>
  * @param section
  * @param links
  */
-const createLinks = (section, links) =>
-{
+const createLinks = (section, links) => {
+
     if (!links) {
         return;
     }
 
     const ul = document.createElement('ul');
+
+    ul.classList.add('links');
 
     for (const key in links) {
 
@@ -82,8 +137,8 @@ const createLinks = (section, links) =>
  * @param section
  * @param question
  */
-const createQuestion = (section, question) =>
-{
+const createQuestion = (section, question) => {
+
     if (!question) {
         return;
     }
@@ -104,8 +159,8 @@ const createQuestion = (section, question) =>
  * @param answers
  * @param sectionId
  */
-const createAnswers = (section, answers, sectionId) =>
-{
+const createAnswers = (section, answers, sectionId) =>  {
+
     if (!answers) {
         return;
     }
@@ -153,14 +208,41 @@ const createAnswers = (section, answers, sectionId) =>
     section.appendChild(ul);
 }
 
+
+
+/**
+ * Create a YouTube video to the given section.
+ *
+ * @param section
+ * @param youtube
+ */
+const createYoutube = (section, youtube) => {
+
+    if (!youtube) {
+        return;
+    }
+
+    const iframe = document.createElement('iframe');
+
+    iframe.src = youtube;
+    iframe.title = 'YouTube video player';
+    iframe.width = '80%';
+    iframe.height = '50%';
+    iframe.frameBorder = '0';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullScreen = true;
+    iframe.referrerPolicy ='strict-origin-when-cross-origin';
+
+    section.appendChild(iframe);
+}
+
 /**
  * Collects the anchors from the given data.
  *
  * @param data
  * @param sectionId
  */
-function collectAnchors(data, sectionId)
-{
+const collectAnchors = (data, sectionId) => {
     let answers = data.answers;
 
     if (data.anchor) {
@@ -216,6 +298,11 @@ const createSlide = (sectionData, sectionId) =>
                         createAnswers(section, sectionData.answers, sectionId);
                         break;
 
+                    /* Add note to slide. */
+                    case 'note':
+                        createNote(section, data);
+                        break;
+
                     /* Add links to slide. */
                     case 'links':
                         createLinks(section, data);
@@ -229,6 +316,16 @@ const createSlide = (sectionData, sectionId) =>
                     /* Add text to slide. */
                     case 'text':
                         createText(section, data);
+                        break;
+
+                    /* Add title to slide. */
+                    case 'title':
+                        createTitle(section, data);
+                        break;
+
+                    /* Add a youtube video to slide. */
+                    case 'youtube':
+                        createYoutube(section, data);
                         break;
                 }
             }
