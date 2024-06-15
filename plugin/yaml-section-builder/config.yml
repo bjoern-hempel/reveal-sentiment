@@ -4,7 +4,7 @@ content:
 answers:
     "Ich bin wütend und verärgert.":
         content:
-            - question: "Warum bist du wütend?"
+            - question: "Warum bist du wütend oder verärgert?"
             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
         anchor: "Anker: Ich bin wütend."
         answers:
