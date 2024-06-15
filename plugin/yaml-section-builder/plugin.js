@@ -187,7 +187,7 @@ const createAnswers = (section, answers, sectionId) =>  {
                 break;
 
             /* Section given. */
-            case typeof answerData === "string" && answerData.startsWith('section-'):
+            case typeof answerData === "string" && answerData.startsWith('page-'):
                 a.href = `#${answerData}`;
                 break;
 
@@ -376,7 +376,7 @@ const createRevealSlides = (data) =>
     slideContainer.classList.add('slides');
 
     /* Create sections. */
-    createSlides(data, slideContainer, 'section');
+    createSlides(data, slideContainer, 'page');
 
     return slideContainer;
 }
@@ -395,7 +395,7 @@ const Plugin =
         const data = await fetchYaml(yamlPath);
 
         /* Collect all anchors. */
-        collectAnchors(data, 'section');
+        collectAnchors(data, 'page');
 
         /* Create reveal slides. */
         let revealSlides = createRevealSlides(data);
