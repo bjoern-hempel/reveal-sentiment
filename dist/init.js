@@ -253,12 +253,6 @@ const createSlide = (sectionData, sectionId) =>
         })
     }
 
-    // createText(section, sectionData.text);
-    // createLinks(section, sectionData.links);
-    // createText(section, sectionData.textAfterLinks);
-    // createQuestion(section, sectionData.question);
-    // createAnswers(section, sectionData.answers, sectionId);
-
     return section;
 }
 

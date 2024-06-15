@@ -1,24 +1,24 @@
 content:
     - question: "Wie ist deine aktuelle Stimmung, wenn du über die Politik nachdenkst?"
-    - answers: []
+    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
 answers:
     "Ich bin wütend.":
         content:
             - question: "Warum bist du wütend?"
-            - answers: []
+            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
         anchor: "Anker: Ich bin wütend."
         answers:
             "Die Politik kümmert sich nicht um meine Bedürfnisse.":
                 content:
                     - text: "Es ist verständlich, dass du dich enttäuscht fühlst, wenn deine Bedürfnisse von der Politik nicht berücksichtigt werden. Das kann wirklich frustrierend sein."
                     - question: "Wie sieht dein Plan aus?"
-                    - answers: []
+                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                 answers:
                     "Mein Kreuz bei der nächsten Wahl wird es schon richten!":
                         content:
-                            - text: "Dampf ablassen ist ein ganz normaler Reflex. Wenn man den Wut loswerden möchte."
-                            - question: "Sind die Probleme deiner Meinung nach danach gelöst?"
-                            - answers: []
+                            - text: "Es ist völlig normal, Luft abzulassen, wenn man seine Wut loswerden möchte. Das kann sehr befreiend sein."
+                            - question: "Denkst du, dass deine Probleme dadurch gelöst sind?"
+                            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                         answers:
                             "Ja. Meine Wahl hat auf alles eine Lösung.":
                                 content:
@@ -41,7 +41,7 @@ answers:
             "Die Einwanderungspolitik. Hier läuft etwas schief.":
                 content:
                     - question: "Was genau bewegt dich am Thema Einwanderungspolitik?"
-                    - answers: []
+                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                 answers:
                     "Ich habe Angst um meine Arbeit.":
                         content:
@@ -64,7 +64,7 @@ answers:
             "Ich habe ein Problem mit Umweltthemen und deren Umsetzungen.":
                 content:
                     - question: "Was genau bewegt dich an den Umweltthemen oder deren Umsetzungen?"
-                    - answers: []
+                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                 answers:
                     "Übermäßige Bürokratie. Da blickt doch keiner mehr durch.":
                         content:
@@ -89,12 +89,12 @@ answers:
     "Ich bin unsicher oder habe Angst.":
         content:
             - question: "Warum bist du unsicher oder hast Angst?"
-            - answers: []
+            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
         answers: "Anker: Ich bin wütend."
     "Könnte man besser machen, wird schon.":
         content:
             - question: "Hast du schonmal nachgedacht in der Politik mitzuwirken?"
-            - answers: []
+            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
         answers:
             "Ja, aber weiß nicht wie.":
                 content:
