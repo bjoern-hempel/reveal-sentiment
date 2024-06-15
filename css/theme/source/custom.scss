@@ -33,7 +33,7 @@ $orange:    #cb4b16;
 $red:       #dc322f;
 $magenta:   #d33682;
 $violet:    #6c71c4;
-$blue:      #268bd2;
+$blue:      #90c5eb;
 $cyan:      #2aa198;
 $green:     #859900;
 
@@ -90,7 +90,7 @@ div.reveal {
 
             h2 {
                 &.question {
-                    margin-top: 0.5em;
+                    margin-top: 0.75em;
                 }
             }
 
@@ -106,7 +106,7 @@ div.reveal {
             ul.answers {
                 padding-left: 0;
                 width: 100%;
-                margin: 0;
+                margin-top: 0.75em;
 
                 li {
                     list-style-type: none;
