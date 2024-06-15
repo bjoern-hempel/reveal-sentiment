@@ -59,15 +59,23 @@ $selectionBackgroundColor: $yellow;
 // Overwrite distance and settings -------------
 
 /* Customized home button. */
-div.home a {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 200;
+div.home {
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 1000;
-    text-decoration: none;
     color: #fff;
+
+    a {
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 200;
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 /* Configure reveal sections. */

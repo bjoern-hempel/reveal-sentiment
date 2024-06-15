@@ -45,22 +45,28 @@ answers:
                 answers:
                     "Ich habe Angst um meine Arbeit.":
                         content:
-                            - text: "..."
+                            - title: "Einwanderung und Arbeitsplatzsicherheit: Warum wir Fachkräfte brauchen"
+                            - text: "Ich verstehe deine Sorgen um deine Arbeit. Es ist wichtig zu wissen, dass die Einwanderungspolitik darauf abzielt, Fachkräfte ins Land zu holen, die wir dringend brauchen. Diese Menschen tragen dazu bei, unsere Wirtschaft zu stärken und Lücken in Bereichen zu füllen, in denen es einen Mangel an qualifizierten Arbeitskräften gibt. Langfristig profitieren wir alle davon, da es das Wachstum und die Stabilität unserer Wirtschaft unterstützt."
                     "Ich möchte keine fremden Kulturen.":
                         content:
-                            - text: "..."
+                            - title: "Offenheit und Vielfalt: Die Bereicherung durch andere Kulturen"
+                            - text: "Es ist verständlich, dass Veränderungen manchmal Unsicherheiten mit sich bringen können. Die Integration verschiedener Kulturen kann jedoch eine Bereicherung für unsere Gesellschaft sein. Sie bringt neue Perspektiven, Ideen und Erfahrungen mit sich, die unser gemeinsames Leben vielfältiger und dynamischer machen. Offenheit und Toleranz gegenüber anderen Kulturen können dazu beitragen, ein harmonisches und respektvolles Miteinander zu fördern."
                     "Ich mache mir Sorgen um die Sicherheit.":
                         content:
-                            - text: "..."
+                            - title: "Sicherheit und Einwanderung: Ein ausgewogener Ansatz"
+                            - text: "Es ist nachvollziehbar, dass du dir Sorgen um die Sicherheit machst. Eine effektive Einwanderungspolitik legt großen Wert darauf, Sicherheitsbedenken ernst zu nehmen und entsprechende Maßnahmen zu ergreifen. Durch sorgfältige Prüfungen und Kontrollen wird sichergestellt, dass die Sicherheit unserer Gesellschaft gewährleistet bleibt. Zudem kann eine gut integrierte Gemeinschaft dazu beitragen, ein sichereres und harmonischeres Umfeld zu schaffen."
                     "Es gibt zu viele Einwanderer.":
                         content:
-                            - text: "..."
+                            - title: "Die Bedeutung einer ausgewogenen Einwanderungspolitik"
+                            - text: "Ich verstehe, dass dir die Anzahl der Einwanderer Sorgen bereitet. Eine ausgewogene Einwanderungspolitik strebt jedoch danach, die Bedürfnisse des Landes mit denen der Einwanderer in Einklang zu bringen. Viele Einwanderer füllen wichtige Arbeitsplätze, tragen zur Wirtschaft bei und bereichern unsere Gesellschaft kulturell. Es ist wichtig, dass wir Wege finden, diese Veränderungen positiv zu gestalten und sicherzustellen, dass alle Bürger davon profitieren können."
                     "Die Integration funktioniert nicht.":
                         content:
-                            - text: "..."
+                            - title: "Herausforderungen und Chancen der Integration"
+                            - text: "Ich verstehe deine Bedenken bezüglich der Integration. Es ist eine große Herausforderung, aber auch eine Chance für unsere Gesellschaft. Integration erfordert Anstrengungen von beiden Seiten – sowohl von den Einwanderern als auch von der Aufnahmegesellschaft. Durch gezielte Maßnahmen, wie Sprachkurse, Bildungsprogramme und die Förderung des interkulturellen Dialogs, kann die Integration besser gelingen. Wenn wir gemeinsam daran arbeiten, kann Integration erfolgreich sein und unser gesellschaftliches Miteinander stärken."
                     "Die Belastung für das Sozialsystem ist zu hoch.":
                         content:
-                            - text: "..."
+                            - title: "Einwanderung und die Auswirkungen auf das Sozialsystem"
+                            - text: "Ich verstehe deine Sorge um die Belastung des Sozialsystems. Es ist wichtig, dass die Einwanderungspolitik so gestaltet wird, dass sie nachhaltig und fair ist. Viele Einwanderer tragen bereits durch ihre Arbeit und Steuern zur Finanzierung unseres Sozialsystems bei. Durch eine gezielte Integration und Beschäftigungsförderung können wir sicherstellen, dass Einwanderer zu einer positiven wirtschaftlichen Entwicklung beitragen und somit langfristig unser Sozialsystem unterstützen. Es ist wichtig, eine Balance zu finden, die sowohl die Bedürfnisse der Bevölkerung als auch die wirtschaftliche Stabilität berücksichtigt."
             "Ich habe ein Problem mit den Umweltthemen und deren Umsetzung.":
                 content:
                     - question: "Was genau bewegt dich an den Umweltthemen oder deren Umsetzungen?"
@@ -119,4 +125,9 @@ answers:
                 content:
                     - title: "Video"
                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
-
+                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                answers:
+                    "Nächste Seite":
+                        content:
+                            -   title: "Video 2"
+                            -   youtube: "https://www.youtube.com/embed/C0DPdy98e4c"

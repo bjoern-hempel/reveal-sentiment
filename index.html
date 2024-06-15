@@ -16,9 +16,22 @@
 		<link rel="icon" type="image/vnd.icon" href="manifest/favicon.ico">
 	</head>
 	<body>
-		<div class="home"><a href="#" onclick="location.reload(); return false;">Restart</a></div>
+		<div class="home">
+			<a href="#">Startseite</a> &nbsp;|&nbsp;
+			<a href="#section-impress">Impressum</a> &nbsp;|&nbsp;
+			<a href="#data-privacy">Datenschutz</a>
+		</div>
 
-		<div class="reveal"><div class="slides"></div></div>
+		<div class="reveal"><div class="slides">
+			<section id="section-impress" data-auto-animate>
+				<h2>Impressum</h2>
+				<p>Hier steht der Text für das Impressum.</p>
+			</section>
+			<section id="data-privacy" data-auto-animate>
+				<h2>Datenschutz</h2>
+				<p>Hier steht der Text für den Datenschutz.</p>
+			</section>
+		</div></div>
 
 		<script src="dist/js-yaml.min.js"></script>
 		<script src="dist/reveal.js"></script>
@@ -34,17 +47,17 @@
 				controls: false,
 				controlsTutorial: false,
 				disableLayout: true,
-				hash: false,
+				hash: true,
 				help: false,
+				hideCursorTime: 1000,
 				jumpToSlide: false,
 				keyboard: false,
 				overview: false,
 				progress: false,
 				slideNumber: false,
+				touch: false,
 				transition: 'slide',
 				transitionSpeed: 'default',
-				touch: false,
-				hideCursorTime: 1000,
 				plugins: [ YamlSectionBuilder, RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 

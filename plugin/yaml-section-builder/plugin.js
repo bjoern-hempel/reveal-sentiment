@@ -405,8 +405,8 @@ const Plugin =
 
         /* Add all reveal slides to target slides element. */
         if (existingSlidesElement && revealSlides) {
-            while (revealSlides.firstChild) {
-                existingSlidesElement.appendChild(revealSlides.firstChild);
+            while (revealSlides.lastChild) {
+                existingSlidesElement.insertBefore(revealSlides.lastChild, existingSlidesElement.firstChild);
             }
         }
     }
