@@ -26,3 +26,18 @@ div.home a {
 .reveal a {
     font-size: .8em;
 }
+
+.reveal div.slides section {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    padding: calc(5em + (100vh - 100vw) / 5) 1.5em 0;
+    box-sizing: border-box;
+}
+
+.reveal div.slides section {
+    word-wrap: break-word;
+}

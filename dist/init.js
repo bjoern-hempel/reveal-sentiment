@@ -13,7 +13,7 @@ const initReveal = () =>
     Reveal.initialize({
         controls: false,
         controlsTutorial: false,
-        disableLayout: false,
+        disableLayout: true,
         hash: false,
         help: false,
         jumpToSlide: false,
@@ -232,19 +232,22 @@ const createSlide = (sectionData, sectionId) =>
             for (const [type, data] of Object.entries(content)) {
                 switch (type) {
 
-                    /* Use answers from sectionData.answers block */
+                    /* Use answers from sectionData.answers block to slide. */
                     case 'answers':
                         createAnswers(section, sectionData.answers, sectionId);
                         break;
 
+                    /* Add links to slide. */
                     case 'links':
                         createLinks(section, data);
                         break;
 
+                    /* Add question to slide. */
                     case 'question':
                         createQuestion(section, data);
                         break;
 
+                    /* Add text to slide. */
                     case 'text':
                         createText(section, data);
                         break;
