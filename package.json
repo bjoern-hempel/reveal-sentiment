@@ -1,9 +1,8 @@
 {
   "name": "reveal.js",
-  "version": "5.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
+  "version": "0.1.0",
+  "description": "Political sentiment survey tool",
+  "homepage": "https://sentiment.ixno.de/",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
   "license": "MIT",
@@ -14,18 +13,21 @@
     "package": "gulp package"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Björn Hempel",
+    "email": "bjoern@hempel.li",
+    "web": "https://hempel.li"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git@github.com:bjoern-hempel/reveal-sentiment.git"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "keywords": [
+    "politics",
+    "sentiment",
+    "survey",
     "reveal",
     "slides",
     "presentation"
