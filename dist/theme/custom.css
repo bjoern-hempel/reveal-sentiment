@@ -428,6 +428,9 @@ div.reveal div.slides section ul.links li::marker {
 div.reveal div.slides section p {
   font-weight: 200;
 }
+div.reveal div.slides section div.text {
+  padding-top: 0.5em;
+}
 div.reveal div.slides section div.text p {
   line-height: 1.6;
 }
