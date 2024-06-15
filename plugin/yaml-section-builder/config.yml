@@ -10,13 +10,13 @@ answers:
         answers:
             "Die Politik berücksichtigt meine Bedürfnisse nicht.":
                 content:
-                    - text: "Es ist verständlich, dass du dich enttäuscht fühlst, wenn deine Bedürfnisse von der Politik nicht berücksichtigt werden. Das kann wirklich frustrierend sein."
+                    - note: "Es ist verständlich, dass du dich enttäuscht fühlst, wenn deine Bedürfnisse von der Politik nicht berücksichtigt werden. Das kann wirklich frustrierend sein."
                     - question: "Wie sieht dein Plan aus?"
                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                 answers:
                     "Meine Stimme bei der nächsten Wahl wird den Unterschied machen!":
                         content:
-                            - text: "Es ist völlig normal, Luft abzulassen, wenn man seine Wut loswerden möchte. Das kann sehr befreiend sein."
+                            - note: "Es ist völlig normal, Luft abzulassen, wenn man seine Wut loswerden möchte. Das kann sehr befreiend sein."
                             - question: "Denkst du, dass deine Probleme dadurch gelöst sind?"
                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                         answers:
