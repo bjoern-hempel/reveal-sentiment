@@ -30,6 +30,9 @@ answers:
                                         content:
                                             - title: "Kritische Prüfung von Parteiversprechen"
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+                                            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                                        answers:
+                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
                             "Ich bin unschlüssig, aber ich sehe keine andere Wahl.":
                                 content:
                                     - title: "Konsequenzen und Verantwortung"
@@ -40,6 +43,9 @@ answers:
                                         content:
                                             - title: "Konsequenzen und Verantwortung"
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+                                            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                                        answers:
+                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
                             "Nein, natürlich nicht. Aber dieser Denkzettel wird tief sitzen!":
                                 content:
                                     - title: "Langfristige Auswirkungen bedenken"
@@ -50,6 +56,9 @@ answers:
                                         content:
                                             - title: "Langfristige Auswirkungen bedenken"
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+                                            - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                                        answers:
+                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
                     "Ich bin unschlüssig was ich wählen soll.":
                         content:
                             - title: 'Die "richtige" Partei'
@@ -61,6 +70,9 @@ answers:
                                 content:
                                     - title: "Realistische Lösungen und nachhaltige Veränderungen"
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+                                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                                answers:
+                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
                     "Es ist mir egal, es scheint ohnehin aussichtslos!":
                         content:
                             - title: "Die Bedeutung deiner Wahlentscheidung"
