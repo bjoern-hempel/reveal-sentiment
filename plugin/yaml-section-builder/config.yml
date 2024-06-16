@@ -243,7 +243,7 @@ answers:
         answers:
             "Ja, aber weiß nicht wie.":
                 content:
-                    - text: "Etwas Text wie man sich politisch aktiv einsetzen kann."
+                    - text: "Etwas Text wie man sich politisch aktiv einbringen kann."
             "Nein, ich vertraue auf die aktuelle Politik. Veränderungen brauchen ihre Zeit.":
                 content:
                     - text: "Etwas Mut für die Zukunft."
