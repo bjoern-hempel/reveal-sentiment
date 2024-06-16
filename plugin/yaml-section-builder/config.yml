@@ -32,7 +32,7 @@ answers:
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                         answers:
-                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                            "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                             "Ich bin unschlüssig, aber ich sehe keine andere Wahl.":
                                 content:
                                     - title: "Konsequenzen und Verantwortung"
@@ -45,7 +45,7 @@ answers:
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                         answers:
-                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                            "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                             "Nein, natürlich nicht. Aber dieser Denkzettel wird tief sitzen!":
                                 content:
                                     - title: "Langfristige Auswirkungen bedenken"
@@ -58,28 +58,25 @@ answers:
                                             - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                         answers:
-                                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                            "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Ich bin unschlüssig was ich wählen soll.":
                         content:
-                            - title: 'Die "richtige" Partei'
+                            - title: "Die Partei mit den besten Lösungen finden"
                             - text: "Parteien verfolgen verschiedene politische Ziele und Strategien. Die Wahl der richtigen Partei sollte darauf basieren, welche Partei die meisten und realistischsten Lösungen für die persönlichen Anliegen bietet. Es ist essenziell, sich zu informieren und kritisch zu hinterfragen, ob die vorgeschlagenen Maßnahmen auch wirklich umsetzbar sind. Eine Partei, die ernsthafte und machbare Lösungen vorschlägt, ist entscheidend für nachhaltige und positive Veränderungen. Daher sollte man seine Wahl gut überdenken und sich für die Partei entscheiden, die am ehesten den eigenen Erwartungen und Bedürfnissen entspricht."
                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
-                        anchor: "Anker: Die richtige Partei."
+                        anchor: "Anker: Die Parteil mit den besten Lösungen"
                         answers:
                             "Mehr Informationen":
                                 content:
                                     - title: "Realistische Lösungen und nachhaltige Veränderungen"
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
-                                    - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
-                                answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
                     "Es ist mir egal, es scheint ohnehin aussichtslos!":
                         content:
                             - title: "Die Bedeutung deiner Wahlentscheidung"
                             - text: "Es kann frustrierend sein, wenn die politische Landschaft chaotisch erscheint und man das Gefühl hat, dass die eigene Stimme nichts bewirken kann. Doch genau in diesen Momenten ist es wichtiger denn je, zur Wahl zu gehen. Deine Stimme zählt, und sie kann einen Unterschied machen.\nÜberlege dir gut, welche Partei die meisten realistischen und umsetzbaren Lösungen für deine Anliegen bietet. Informiere dich, hinterfrage kritisch und wähle die Partei, die deinen Vorstellungen und Bedürfnissen am besten entspricht. Aufgeben ist keine Option, denn nur wer wählt, kann auch Veränderungen bewirken. Deine Wahl ist wichtig – sie bestimmt die Zukunft, in der du leben wirst."
                             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                         answers:
-                            "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                            "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Ich möchte mich gern politisch einbringen.":
                         content:
                             - text: "..."
@@ -100,7 +97,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Ich möchte keine fremden Kulturen.":
                         content:
                             - title: "Offenheit und Vielfalt: Die Bereicherung durch andere Kulturen"
@@ -113,7 +110,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Ich mache mir Sorgen um die Sicherheit.":
                         content:
                             - title: "Sicherheit und Einwanderung: Ein ausgewogener Ansatz"
@@ -126,7 +123,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Es gibt zu viele Einwanderer.":
                         content:
                             - title: "Die Bedeutung einer ausgewogenen Einwanderungspolitik"
@@ -139,7 +136,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Die Integration funktioniert nicht.":
                         content:
                             - title: "Herausforderungen und Chancen der Integration"
@@ -152,7 +149,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Die Belastung für das Sozialsystem ist zu hoch.":
                         content:
                             - title: "Einwanderung und die Auswirkungen auf das Sozialsystem"
@@ -165,7 +162,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
             "Ich habe ein Problem mit den Umweltthemen und deren Umsetzung.":
                 content:
                     - question: "Was genau bewegt dich an den Umweltthemen oder deren Umsetzungen?"
@@ -183,7 +180,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Ästhetische Bedenken. Ich mag keine Windräder und Solaranlagen.":
                         content:
                             - title: "Lösungen für eine harmonische Integration"
@@ -196,7 +193,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Es gibt keinen Klimawandel.":
                         content:
                             - title: "Fakten, Forschung und die Bedeutung des Dialogs"
@@ -214,7 +211,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
                     "Bevormundung durch den Staat. Ich möchte meinen Verbrenner frei fahren.":
                         content:
                             - title: "Balance zwischen Umweltschutz und individuellen Freiheiten"
@@ -227,7 +224,7 @@ answers:
                                     - youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
                                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                                 answers:
-                                    "Wie finde ich die \"richtige\" Partei?": "Anker: Die richtige Partei."
+                                    "Wie finde ich die Partei mit den für mich besten Lösungen?": "Anker: Die Parteil mit den besten Lösungen"
             "Einfach alles. Nichts wird richtig umgesetzt.":
                 content:
                     - note: "Ich verstehe, dass du das Gefühl hast, dass nichts richtig umgesetzt wird. Es kann wirklich frustrierend sein, wenn man das Vertrauen in die Maßnahmen und Entscheidungen der Politik verliert. Vielleicht wäre es hilfreich, sich gezielt mit einzelnen Themen auseinanderzusetzen, um ein besseres Verständnis für die Herausforderungen und Lösungen zu entwickeln.\nOb es um Einwanderungspolitik oder Umweltthemen geht, es gibt oft viele Perspektiven und Ansätze, die nicht immer sofort offensichtlich sind. Durch ein tieferes Eintauchen in diese Themen kannst du dir ein differenzierteres Bild machen und möglicherweise auch konstruktive Wege finden, um Veränderungen zu unterstützen. Ein offener Dialog und das Einholen von Informationen aus verschiedenen Quellen können dabei helfen, einen ausgewogenen Blick auf die aktuellen Herausforderungen und deren Umsetzungen zu gewinnen."
@@ -271,5 +268,5 @@ answers:
                 answers:
                     "Nächste Seite":
                         content:
-                            -   title: "Video 2"
-                            -   youtube: "https://www.youtube.com/embed/C0DPdy98e4c"
+                            - title: "Titel"
+                            - text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
