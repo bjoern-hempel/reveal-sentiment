@@ -82,13 +82,14 @@ div.home {
 div.reveal {
     div.slides {
         section {
+            font-size: clamp(20px, calc(20px + 20 * ((100vw - 320px) / 680)), 40px);
             position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             overflow-y: auto;
-            padding: calc(3em + (100vh - 100vw) / 10) 1.5em 1em;
+            padding: calc(3em + (100vh - 100vw) / 10) 1.5em 1.5em;
             box-sizing: border-box;
 
             * {
