@@ -119,6 +119,7 @@ const createLinks = (section, links) => {
         const value = links[key];
         const li = document.createElement('li');
         const a = document.createElement('a');
+        a.classList.add('link');
 
         a.href = value;
         a.textContent = key;
@@ -178,6 +179,7 @@ const createAnswers = (section, answers, sectionId) =>  {
     for (const [answerText, answerData] of Object.entries(answers)) {
         const li = document.createElement('li');
         const a = document.createElement('a');
+        a.classList.add('answer');
 
         switch (true) {
             /* Anchor given. */
@@ -283,7 +285,6 @@ const collectAnchors = (data, sectionId) => {
 const createSlide = (sectionData, sectionId) =>
 {
     const section = document.createElement('section');
-    //section.setAttribute('data-transition', 'slide-out');
     section.setAttribute('data-auto-animate', null);
 
     section.id = sectionId;
@@ -409,6 +410,16 @@ const Plugin =
                 existingSlidesElement.insertBefore(revealSlides.lastChild, existingSlidesElement.firstChild);
             }
         }
+
+        let answers = document.querySelectorAll('a.answer');
+        answers.forEach((answer) => {
+            answer.addEventListener('click', () => {
+                let sections = document.querySelectorAll('section');
+                sections.forEach((section) => {
+                    section.scrollTop = 0;
+                });
+            });
+        });
     }
 };
 

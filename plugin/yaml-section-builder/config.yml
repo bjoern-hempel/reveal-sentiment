@@ -2,7 +2,7 @@ content:
     - question: "Wie ist deine aktuelle Stimmung, wenn du über die Politik nachdenkst?"
     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
 answers:
-    "Ich bin wütend und verärgert.":
+    "Ich bin wütend oder verärgert.":
         content:
             - question: "Warum bist du wütend oder verärgert?"
             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
@@ -84,6 +84,7 @@ answers:
                 content:
                     - question: "Was genau bewegt dich am Thema Einwanderungspolitik?"
                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
+                anchor: "Anker: Die Einwanderungspolitik ist nicht effektiv."
                 answers:
                     "Ich habe Angst um meine Arbeit.":
                         content:
@@ -231,11 +232,17 @@ answers:
                     - question: "Was bewegt dich?"
                     - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
                 answers: "Anker: Ich bin wütend."
-    "Ich bin unsicher oder habe Angst.":
+    "Ich habe Sorgen oder Angst.":
         content:
-            - question: "Warum bist du unsicher oder hast Angst?"
+            - question: "Warum hast du Sorgen oder Angst?"
             - answers: [] # Fügt hier die nachfolgenden Antworten hinzu. Hier nur [] stehen lassen!
-        answers: "Anker: Ich bin wütend."
+        answers:
+            "Ich habe das Vertrauen in die Politik verloren":
+                title: ""
+                content:
+                    - title: "Vertrauen in die Politik"
+                    - text: "Ich verstehe, dass man das Vertrauen in die Politik verlieren kann. Viele Menschen teilen diese Frustration. Es kann hilfreich sein, sich gezielt über verschiedene Parteien und ihre konkreten Pläne zu informieren und sich aktiv in Diskussionen einzubringen. Dein Engagement kann dazu beitragen, Veränderungen zu bewirken und das Vertrauen in den politischen Prozess wiederherzustellen."
+            "Die Einwanderungspolitik ist nicht effektiv.": "Anker: Die Einwanderungspolitik ist nicht effektiv."
     "Es könnte besser laufen, aber es wird schon.":
         content:
             - question: "Hast du schonmal nachgedacht in der Politik mitzuwirken?"
