@@ -283,7 +283,7 @@ const collectAnchors = (data, sectionId) => {
 const createSlide = (sectionData, sectionId) =>
 {
     const section = document.createElement('section');
-    section.setAttribute('data-transition', 'slide-out');
+    //section.setAttribute('data-transition', 'slide-out');
     section.setAttribute('data-auto-animate', null);
 
     section.id = sectionId;
