@@ -396,6 +396,7 @@ div.reveal div.slides section {
 }
 div.reveal div.slides section * {
   word-wrap: break-word;
+  hyphens: auto;
 }
 div.reveal div.slides section h1 {
   margin-top: 0.75em;
