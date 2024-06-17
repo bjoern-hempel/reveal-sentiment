@@ -400,9 +400,11 @@ div.reveal div.slides section * {
 }
 div.reveal div.slides section h1 {
   margin-top: 0.75em;
+  text-shadow: 2px 2px 2px #000000;
 }
 div.reveal div.slides section h2 {
   margin-top: 0.75em;
+  text-shadow: 2px 2px 2px #000000;
 }
 div.reveal div.slides section a {
   font-weight: 200;
